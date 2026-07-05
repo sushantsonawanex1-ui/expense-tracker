@@ -1,0 +1,90 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#f4f6f9;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+}
+
+.container{
+    width:95%;
+    max-width:500px;
+    background:white;
+    padding:25px;
+    border-radius:15px;
+    box-shadow:0 10px 25px rgba(0,0,0,.15);
+}
+
+h1,h2{
+    text-align:center;
+    margin-bottom:15px;
+}
+
+.balance{
+    text-align:center;
+    margin-bottom:20px;
+}
+
+.summary{
+    display:flex;
+    justify-content:space-between;
+    margin:20px 0;
+}
+
+.income,.expense{
+    width:48%;
+    padding:15px;
+    border-radius:10px;
+    text-align:center;
+}
+
+.income{
+    background:#d4edda;
+}
+
+.expense{
+    background:#f8d7da;
+}
+
+.form input{
+    width:100%;
+    padding:12px;
+    margin:10px 0;
+    border:1px solid #ccc;
+    border-radius:8px;
+}
+
+button{
+    width:100%;
+    padding:12px;
+    background:#007bff;
+    color:white;
+    border:none;
+    border-radius:8px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#0056b3;
+}
+
+ul{
+    list-style:none;
+    margin-top:20px;
+}
+
+li{
+    display:flex;
+    justify-content:space-between;
+    padding:12px;
+    margin:10px 0;
+    background:#eee;
+    border-radius:8px;
+}
