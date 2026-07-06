@@ -25,7 +25,7 @@ A modern Expense Tracker built using HTML, CSS, and JavaScript. It allows users 
 
 ## 📸 Screenshot
 
-![Expense Tracker](Screenshot_20260705_202240.jpg)
+![Expense Tracker](Screenshot_20260705_202404.jpg)
 
 ---
 
